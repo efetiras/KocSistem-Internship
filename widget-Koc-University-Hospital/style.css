@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.container {
+	width: 1920px;
+	height: 1080px;
+	display: flex;
+	flex-direction: column;
+	background-image: url("img/mask-1.png");
+	position: absolute;
+}
+
+.first-img {
+	width: 1920px;
+	height: 1080px;
+	background-image: url("img/hospital.jpg");
+	position: absolute;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex: 4;
+}
+
+.c-row {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.row-1 {
+	display: flex;
+	flex: 2;
+	flex-direction: row;
+}
+
+.row-2 {
+	display: flex;
+	flex: 6;
+}
+
+.row-3 {
+	display: flex;
+	flex: 0.8;
+	margin-top: 50px;
+}
+
+.logo {
+	display: flex;
+	flex: 4;
+	width: 400px;
+	height: 85px;
+	margin-top: 55px;
+	margin-left: 55px;
+}
+
+.information {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	margin-top: 55px;
+	align-items: flex-start;
+}
+
+.time {
+	font-family: "Open Sans", sans-serif;
+	font-size: 31px;
+	color: #ffffff;
+}
+
+.date {
+	font-family: "Open Sans", sans-serif;
+	font-size: 31px;
+	color: #ffffff;
+}
+
+.time-img {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+	margin-right: 20px;
+}
+
+.time-child {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 25px;
+}
+
+.date-child {
+	display: flex;
+	flex-direction: row;
+}
+
+.rectangle-1 {
+	display: flex;
+	width: 870px;
+	height: 115px;
+	background-color: #c4122f;
+	margin-bottom: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-style {
+	font-family: "Open Sans", sans-serif;
+	font-size: 69px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.rectangle-2 {
+	display: flex;
+	width: 770px;
+	height: 120px;
+	background-color: #c4122f;
+	align-items: center;
+	justify-content: center;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	flex: 4;
+	align-self: center;
+}
+
+.tables {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-right: 30px;
+}
+
+.rectangle-3 {
+	display: flex;
+	max-width: 60%;
+	max-height: 10%;
+	background-color: #414244;
+	border: solid 1px #414244;
+	border-top-left-radius: 20px;
+	justify-content: center;
+	flex: 1;
+}
+
+.style {
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+	align-self: center;
+}
+
+.rectangle-4 {
+	display: flex;
+	flex: 6;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #424650;
+	border: solid 1px #424650;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 55px;
+	min-width: 100%;
+	max-width: 200px;
+	z-index: 2;
+	background-image: url("img/traffic-2.png");
+	background-size: 100% 100%;
+}
+
+.rectangle-4-second {
+	min-width: 100%;
+	max-width: 200px;
+	display: flex;
+	flex: 4;
+	background-color: #414244;
+	border: solid 1px #414244;
+	border-bottom-left-radius: 20px;
+	background-image: url("img/yandex.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: -50px;
+}
+
+.dot-container {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: -5px;
+	margin-bottom: 14px;
+	z-index: 2;
+}
+
+.dot-container-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: -5px;
+	margin-bottom: 14px;
+	z-index: 2;
+}
+
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.ellipse-1 {
+	border: solid 1px #ffffff;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+.road-info {
+	display: flex;
+	flex-direction: row;
+}
+
+.style-road {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	align-self: center;
+	margin-right: 10px;
+}
+
+.style-time {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	align-self: center;
+	margin-left: 10px;
+}
+
+.line-8 {
+	width: 65px;
+	height: 0;
+	border: solid 1px #ffffff;
+	border-bottom: 1px;
+	margin-top: 2px;
+	align-self: center;
+}
+
+.fa-map-marker-alt {
+	display: flex;
+	flex: 1;
+	color: red;
+}
+
+.news-container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	max-width: 10%;
+	border: solid 1px #e87161;
+	background-color: #e87161;
+	align-items: center;
+	justify-content: center;
+}
+
+.news-style {
+	font-family: "Roboto", sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.news-style-row2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	align-self: flex-end;
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+
+.description-container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	border: solid 1px #192531;
+	background-color: #192531;
+	justify-content: center;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+}
+
+.description-style {
+	display: flex;
+	flex: 20;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: #ffffff;
+	align-items: center;
+}
+
+.rectangle-5 {
+	display: flex;
+	flex: 0.2;
+	border: solid 1px #e87161;
+	background-color: #e87161;
+}
+
+.city {
+	font-family: "OpenSans", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.line-1 {
+	width: 74.4px;
+	height: 0;
+	margin: 3.1px 0 0;
+	opacity: 0.15;
+	border: solid 1.2px #edeeef;
+}
+
+.weather-info-container {
+	margin-top: 30px;
+	margin-right: 30px;
+	display: flex;
+	flex: 4;
+	flex-direction: column;
+}
+
+.weather-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.day {
+	margin-top: 10px;
+	font-family: "OpenSans", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.date-weather {
+	font-family: "OpenSans", sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	font-style: italic;
+	color: #8cb7f0;
+}
+
+.current-weather-container {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.weather-style {
+	font-family: "OpenSans", sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.days-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 20px;
+}
+
+.date-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+.line-3 {
+	width: 100px;
+	height: 1px;
+	opacity: 0.15;
+	background-color: #edeeef;
+	margin-right: 10px;
+}
+
+.line-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 20px;
+}
+
+.Group-10 {
+	max-height: 40px;
+	max-width: 50px;
+	margin-top: 5px;
+}
+
+.Group-25 {
+	max-height: 40px;
+	max-width: 50px;
+	margin-top: 5px;
+}
+
+.Group-18 {
+	max-height: 40px;
+	max-width: 50px;
+	margin-top: 5px;
+}
+
+.degree-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5px;
+}
+
+.degree-style {
+	font-family: "OpenSans", sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-left: -50px;
+}
+
+@media(max-width:1080px) {
+	.container {
+		width: 1080px;
+		height: 1920px;
+		background-image: url("img/mask.png");
+	}
+	.first-img {
+		width: 1080px;
+		height: 1920px;
+		background-image: url("img/hospital-2.png");
+		background-size: 1080px 1920px;
+	}
+	.row-1 {
+		flex: 4;
+	}
+	.row-2 {
+		flex-direction: column;
+		flex: 7;
+	}
+	.rectangle-1 {
+		width: 810px;
+	}
+	.tables {
+		align-self: flex-end;
+		flex: 3;
+		min-width: 35%;
+		margin-right: 30px;
+		margin-top: 20px;
+	}
+	.rectangle-4 {
+		min-width: 100%;
+	}
+	.rectangle-4-second {
+		min-width: 100%;
+	}
+	.description {
+		flex: 1;
+		margin-top: 0;
+		margin-bottom: 30px;
+		align-self: flex-start;
+	}
+	.flex-container {
+		flex-direction: column;
+		flex: 6;
+	}
+	.information {
+		align-self: flex-end;
+		margin-right: 80px;
+	}
+	.weather-info-container {
+		margin-top: 0;
+	}
+	.row-3 {
+		flex: 0.6;
+	}
+	.news-container {
+		max-width: 15%;
+	}
+}
