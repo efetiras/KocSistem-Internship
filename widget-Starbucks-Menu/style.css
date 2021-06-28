@@ -1,0 +1,355 @@
+
+body {
+	margin: 0px;
+	
+}
+
+.container {
+	width: 1080px;
+	height: 1920px;
+	display: flex;
+	flex-direction: column;
+}
+
+.c-row {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+	display: flex;
+	flex-direction: column;
+	max-height: 640px;
+}
+
+.row-1 {
+	background-image: url('img/PalmSugar.jpg');
+	background-size: 100% 100%;
+	flex: 1;
+}
+
+.row-2 {
+	background-image: linear-gradient(to left, #0058a5 100%, #52a5db 10%);
+	flex: 1;
+}
+
+.row-3 {
+	background-image: linear-gradient(271deg, #c95c70 100%, #64000e 1%);
+	flex: 1;
+}
+
+.logo-style {
+	margin-left: 40px;
+	height: 100px;
+	background-color: #2b2b2b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	position: absolute;
+}
+
+.logo {
+	font-family: "Open Sans", sans-serif;
+	;
+	font-size: 39px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.18;
+	color: #ffffff;
+}
+
+.content {
+	margin-left: 70px;
+	flex: 8;
+	max-width: 55%;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cont-row1 {
+	display: flex;
+	min-width: 100%;
+	flex: 1;
+	font-family: 'Marioline Barnard', sans-serif;
+	font-size: 55px;
+	color: #ffffff;
+	justify-content: center;
+	align-items: center;
+}
+
+.cont-row2 {
+	display: flex;
+	min-width: 100%;
+	flex: 1;
+	letter-spacing: 6px;
+	font-family: 'Lato', sans-serif;
+	font-size: 58px;
+	font-weight: 800;
+	color: #ffffff;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	margin-top: 20px;
+	display: flex;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	letter-spacing: normal;
+	color: #ffffff;
+	flex: 2;
+	align-self: flex-start;
+	min-width: 100%;
+}
+
+.wrapper-table {
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	flex: 4;
+}
+
+.beverage {
+	
+	margin: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.address {
+	margin-top: 15px;
+	flex: 1;
+	background-color: #63ac9a;
+	border: solid 1px #63ac9a;
+	max-width: 25%;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 30%;
+	max-height: 75px;
+}
+
+.address-style {
+	margin-left: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.content-wrapper {
+	margin-right: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 55%;
+	flex: 8;
+	padding-top: 50px;
+	align-self: flex-end;
+}
+
+.content-wrapper-row1 {
+	flex: 1;
+	font-family: 'Marioline Barnard', sans-serif;
+	font-size: 55px;
+	color: #ffffff;
+	display: flex;
+	min-width: 100%;
+	justify-content: center;
+}
+
+.content-wrapper-row2 {
+	flex: 1;
+	font-family: 'Lato', sans-serif;
+	font-size: 58px;
+	font-weight: 800;
+	letter-spacing: 6px;
+	color: #ffffff;
+	display: flex;
+	min-width: 100%;
+	justify-content: center;
+	align-self: center;
+}
+
+.text-row-2 {
+	margin-top: 20px;
+	min-width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	flex: 2;
+}
+
+.wrapper-table-2 {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	flex: 4;
+	min-width: 100%;
+}
+
+.line-1 {
+	flex: 1;
+	height: 0;
+	border: solid 1px #ffffff;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.line-2 {
+	flex: 1;
+	height: 0;
+	border: solid 1px #ffffff;
+	border-top: 0;
+	border-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.line-3 {
+	flex: 1;
+	height: 0;
+	border: solid 1px #ffffff;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.price-part {
+	border-left: 1px solid white;
+	flex: 1;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	max-width: 50px;
+	justify-content: center;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.address-2 {
+	margin-top: 15px;
+	flex: 1;
+	background-color: #035296;
+	border: solid 1px #035296;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	min-width: 30%;
+	justify-content: center;
+	max-height: 75px;
+}
+
+.address-style-2 {
+	margin-left: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.content-wrapper-last {
+	margin-left: 70px;
+	max-width: 55%;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 8;
+}
+
+.content-wrapper-last-row1 {
+	margin-bottom: 0;
+	flex: 1;
+	font-family: 'Marioline Barnard', sans-serif;
+	font-size: 55px;
+	color: #ffffff;
+	display: flex;
+	min-width: 100%;
+	align-self: center;
+	justify-content: center;
+}
+
+.content-wrapper-last-row2 {
+	flex: 1;
+	font-family: 'Lato', sans-serif;
+	font-size: 58px;
+	font-weight: 800;
+	letter-spacing: 6px;
+	color: #ffffff;
+	display: flex;
+	min-width: 100%;
+	align-self: center;
+	justify-content: center;
+}
+
+.text-row-3 {
+	margin-top: 20px;
+	display: flex;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	letter-spacing: normal;
+	color: #ffffff;
+	flex: 3;
+	align-self: flex-start;
+	min-width: 100%;
+}
+
+.wrapper-table-3 {
+	display: flex;
+	flex-direction: column;
+	font-weight: normal;
+	align-self: center;
+	flex: 4;
+	min-width: 100%;
+}
+
+.address-3 {
+	margin-top: 15px;
+	background-color: #58020f;
+	border: solid 1px #58020f;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background-color: #58020f;
+	max-width: 30%;
+	justify-content: center;
+	max-height: 75px;
+}
+
+.address-style-3 {
+	margin-left: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.19;
+	letter-spacing: normal;
+	color: #ffffff;
+}  
